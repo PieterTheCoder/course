@@ -17,6 +17,6 @@ def draw_circle(gap_size):
         tim.color(random_colour())
         tim.setheading(tim.heading() + gap_size)
 
-draw_circle(10)
+draw_circle(5)
 screen = t.Screen()
 screen.exitonclick()
