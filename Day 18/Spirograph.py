@@ -1,8 +1,8 @@
-import turtle as t
+import turtle as turtle_module
 import random
-tim = t.Turtle()
+tim = turtle_module.Turtle()
 
-t.colormode(255)
+turtle_module.colormode(255)
 def random_colour():
     r = random.randint(0,255)
     g = random.randint(0,255)
@@ -18,5 +18,5 @@ def draw_circle(gap_size):
         tim.setheading(tim.heading() + gap_size)
 
 draw_circle(5)
-screen = t.Screen()
+screen = turtle_module.Screen()
 screen.exitonclick()
