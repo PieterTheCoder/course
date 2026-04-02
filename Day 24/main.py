@@ -2,7 +2,7 @@
 #     contents = file.read()
 #     print(contents)
 
-"""r stands for read-only. a stands for append. w stands for write"""
+"""r stands for read-only. a stands for append. w stands for write."""
 # with open("my_file.txt", mode="a") as file:
 #     contents = file.write("\nHello world")
 #     print(contents)
