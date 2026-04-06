@@ -21,7 +21,7 @@ data = pandas.read_csv("weather_data.csv")
 # """From DataFrame Will convert it to a dictionary"""
 # data_dict = data.to_dict()
 # """From Series WIll convert it to a list"""
-list_of_temp = data["temp"].to_list()
+# list_of_temp = data["temp"].to_list()
 # print(len(list_of_temp))
 
 # average = sum(list_of_temp) / len(list_of_temp)
@@ -46,9 +46,26 @@ list_of_temp = data["temp"].to_list()
 # monday_temp_F = temp_of_monday * 9/5 + 32
 # print(monday_temp_F)
 
-data_dict = {
-    "Name": ["Josephan", "Aji", "Yosua", "Kaleb", "Zelig", "Otniel", " Kristo", "Ezra", "Darrel", "Zhandy"],
-    "Scores": [82, 85, 90, 83, 79, 80, 73, 81, 71, 53]
+# data_dict = {
+#     "Name": ["Josephan", "Aji", "Yosua", "Kaleb", "Zelig", "Otniel", " Kristo", "Ezra", "Darrel", "Zhandy"],
+#     "Scores": [82, 85, 90, 83, 79, 80, 73, 81, 71, 53]
+# }
+# dictionary_of_data = pandas.DataFrame(data_dict)
+# print(dictionary_of_data)
+
+squirrel_data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20260406.csv")
+gray_color_count = len(squirrel_data[squirrel_data["Primary Fur Color"] == "Gray"])
+cinnamon_color_count = len(squirrel_data[squirrel_data["Primary Fur Color"] == "Cinnamon"])
+black_color_count = len(squirrel_data[squirrel_data["Primary Fur Color"] == "Black"])
+
+print(cinnamon_color_count)
+print(gray_color_count)
+print(black_color_count)
+
+all_color_data = {
+    "Fur Color": ["Gray", "Cinnamon", "Black"],
+    "Count": [gray_color_count, cinnamon_color_count, black_color_count]
 }
-dictionary_of_data = pandas.DataFrame(data_dict)
-print(dictionary_of_data)
+
+df = pandas.DataFrame(all_color_data)
+df.to_csv("squirrel_color_count_data.csv")
