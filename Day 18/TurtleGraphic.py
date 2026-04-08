@@ -26,7 +26,7 @@ def random_colour():
 
 for line in range(200):
     tim.speed("fastest")
-    tim.forward(30)
+    tim.forward(31)
     tim.setheading(random.choice(direction))
     tim.color(random_colour())
 
