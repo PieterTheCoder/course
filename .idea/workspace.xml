@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89edab9-ecef-4796-9f4f-0b42a4520853" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 25/pandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/50_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/US state game/50_states.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/blank_states_img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/US state game/blank_states_img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/US state game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day 25" />
       <recent name="$PROJECT_DIR$/Day 18/hirst-painting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day 25/US state game" />
     </key>
   </component>
   <component name="RunManager">
