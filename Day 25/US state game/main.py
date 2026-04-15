@@ -6,21 +6,30 @@ turtle = Turtle()
 image = "blank_states_img.gif"
 
 data = pandas.read_csv("50_states.csv")
-write_state = turtle()
-write_state.penup()
-write_state.hideturtle()
 screen.title("U. S. States Game")
 screen.addshape(image)
 turtle.shape(image)
 all_state = data["state"].to_list()
-x_states = data["x"].to_list()
-y_states = data["y"].to_list()
-# alabama = data[data.state == "Alabama"]
+score = 0
+guessed_state = []
 
-answer = screen.textinput(title="Guess the state", prompt="What's another state name?").upper()
-if answer == all_state:
-    pass
-print(answer)
+while len(guessed_state) < 50:
+    answer = screen.textinput(title="", prompt=f"{len(guessed_state)}/50 States Correct").title()
+    if answer == "Exit":
+        nonguessed_state = []
+        for state in all_state:
+            if state not in guessed_state:
+                nonguessed_state.append(state)
+        new_data = pandas.DataFrame(nonguessed_state)
+        new_data.to_csv("states_to_learn.csv")
+        break
+    if answer in all_state:
+        score += 1
+        guessed_state.append(answer)
+        t = Turtle()
+        t.penup()
+        t.hideturtle()
+        state_data = data[data.state == answer]
+        t.goto(state_data.x.item(), state_data.y.item())
+        t.write(answer)
 
-
-screen.exitonclick()
