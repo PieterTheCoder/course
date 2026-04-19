@@ -10,7 +10,7 @@ class User:
         self.following += 1
 
 user_1 = User("001", "Dog")
-user_2 = User("002", "Dag")
+user_2 = User("002", "Doggy")
 user_1.follow(user_2)
 
 print(user_1.followers)
