@@ -6,7 +6,7 @@ import time
 
 screen = Screen()
 screen.setup(width=800, height=600)
-screen.title("My Pong Game")
+screen.title("My Ping Pong Game")
 screen.bgcolor("black")
 screen.tracer(0)
 
