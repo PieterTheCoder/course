@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89edab9-ecef-4796-9f4f-0b42a4520853" name="Changes" comment="" />
+    <list default="true" id="d89edab9-ecef-4796-9f4f-0b42a4520853" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day 26/dict_comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/US state game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/US state game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/US state game/states_to_learn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day 25/US state game/states_to_learn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 26/list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 26/list_comprehension.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,31 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python..executor": "Run",
-    "Python.Spirograph.executor": "Run",
-    "Python.TurtleGraphic.executor": "Run",
-    "Python.car_manager.executor": "Run",
-    "Python.classinheritance.executor": "Run",
-    "Python.list_comprehension.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.paddle.executor": "Run",
-    "Python.scoreboard.executor": "Run",
-    "Python.snake.executor": "Run",
-    "Python.snakegame.executor": "Run",
-    "Python.turtle_race.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ep/PycharmProjects/course/Day 25",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Spirograph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TurtleGraphic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.car_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classinheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.paddle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snakegame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_race.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ep/PycharmProjects/course/Day 25&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day 25" />
