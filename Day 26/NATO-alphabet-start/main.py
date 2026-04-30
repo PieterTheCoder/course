@@ -26,10 +26,10 @@ Nato_DF = pandas.DataFrame(file)
 
 #TODO 1. Create a dictionary in this format:
 {"A": "Alfa", "B": "Bravo"}
-alpha_stands_for = {index:row for (index, row) in Nato_DF.iterrows()}
-print(alpha_stands_for)
+phonetic_code = {row.letter:row.code for (index, row) in Nato_DF.iterrows()}
+print(phonetic_code)
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-text = input("Write a word").upper()
-list_of_code = [alphabet for alphabet in text ]
-print(list_of_code)
+word = input("Write some text: ").upper()
+output_list = [phonetic_code[letter] for letter in word]
+print(output_list)
