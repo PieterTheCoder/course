@@ -33,3 +33,4 @@ print(phonetic_code)
 word = input("Write some text: ").upper()
 output_list = [phonetic_code[letter] for letter in word]
 print(output_list)
+"""Will print out code from the input"""
