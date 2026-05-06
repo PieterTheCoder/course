@@ -16,7 +16,7 @@
 import pandas
 student_dict = {
     "student": ['Alex', 'Beth', 'Caroline', 'Dave', 'Eleanor', 'Freddie'],
-    "score": [67, 34, 13, 74, 92, 48]
+    "score": [67, 81, 13, 74, 92, 48]
 }
 
 # for (key, value) in student_dict.items():
