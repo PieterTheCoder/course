@@ -51,6 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
     &quot;Python.Spirograph.executor&quot;: &quot;Run&quot;,
     &quot;Python.TurtleGraphic.executor&quot;: &quot;Run&quot;,
     &quot;Python.car_manager.executor&quot;: &quot;Run&quot;,
