@@ -12,7 +12,7 @@ label.pack()
 
 #Buttons
 def action():
-    print("Do something")
+    print("Do something when Pressed")
 
 #calls action() when pressed
 button = Button(text="Click Me", command=action)
