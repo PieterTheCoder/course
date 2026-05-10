@@ -3,6 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("My First GUI Program")
 window.minsize(500, 300)
+window.config(padx=100, pady=200)
 
 def button_clicked():
     print("I got clicked")
@@ -14,6 +15,7 @@ def button_clicked():
 
 label = Label(text="I Am a Label")
 label.grid(column=0, row=0)
+label.config(padx=50, pady=50)
 
 # Button
 
