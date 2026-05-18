@@ -4,7 +4,7 @@
 #         sum += n
 #     return sum
 #
-# print(add(3,9,21))
+# print(add(13,9,21))
 
 def calculate(n, **kwargs):
     # for key, value in kwargs.items():
