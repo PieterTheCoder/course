@@ -6,7 +6,7 @@ window.minsize(500, 300)
 window.config(padx=100, pady=200)
 
 def button_clicked():
-    print("I got clicked 😹")
+    print("I got clicked")
     # label["text"] = "Button Got Clicked"
     new_text = input.get()
     label.config(text=new_text)
