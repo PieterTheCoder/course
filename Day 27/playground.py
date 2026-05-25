@@ -23,5 +23,5 @@ class Car:
         self.colour = kwargs.get("colour")
         self.seats = kwargs.get("seats")
 
-my_car = Car(make="Nissan")
+my_car = Car(make="Wuling")
 print(my_car.model)
