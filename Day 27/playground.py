@@ -4,7 +4,7 @@
 #         sum += n
 #     return sum
 #
-# print(add(2,19,21))
+# print(add(8,2,12))
 
 def calculate(n, **kwargs):
     # for key, value in kwargs.items():
@@ -23,5 +23,5 @@ class Car:
         self.colour = kwargs.get("colour")
         self.seats = kwargs.get("seats")
 
-my_car = Car(make="Nissan")
+my_car = Car(make="Wuling")
 print(my_car.model)
