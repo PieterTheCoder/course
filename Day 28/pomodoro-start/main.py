@@ -7,26 +7,29 @@ GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
 CHECK_MARK = "✔"
-WORK_MIN = 1
-SHORT_BREAK_MIN = 2
-LONG_BREAK_MIN = 3
+WORK_MIN = 25
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
 reps = 0
 timer = None
 
 # ---------------------------- TIMER RESET ------------------------------- # 
 def reset_timer():
+    global reps
     window.after_cancel(timer)
     #timer text 00:00
-    timer_text.config(text="00:00")
+    canvas.itemconfig(timer_text, text="00:00")
     #title_label "timer"
     title_label.config(text="Timer", fg=GREEN)
     #reset check_marks
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
+    check_mark.config(text="")
+    reps = 0
+# ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
     work_sec = WORK_MIN * 1
-    long_break_sec = LONG_BREAK_MIN * 1
-    short_break_sec = SHORT_BREAK_MIN * 1
+    long_break_sec = LONG_BREAK_MIN * 5
+    short_break_sec = SHORT_BREAK_MIN * 25
     reps += 1
 
 
@@ -61,7 +64,7 @@ def count_down(count):
         work_sessions = math.floor(reps/2)
         marks = ""
         for i in range(work_sessions):
-            marks += "✓"
+            marks += CHECK_MARK
             check_mark.config(text=marks)
 
 # ---------------------------- UI SETUP ------------------------------- #
