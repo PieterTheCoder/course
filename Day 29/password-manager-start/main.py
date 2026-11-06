@@ -1,7 +1,5 @@
 from tkinter import *
 
-window = Tk()
-canvas = Canvas(width=200, height=200)
 
 
 
@@ -11,5 +9,8 @@ canvas = Canvas(width=200, height=200)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
+window = Tk()
+canvas = Canvas(width=200, height=200)
 
+logo_image = PhotoImage(file="logo.png")
 window.mainloop()
