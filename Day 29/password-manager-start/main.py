@@ -1,5 +1,25 @@
 from tkinter import *
+from tkinter import messagebox
+
 WHITE = "#FFFFFF"
+
+# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+
+# ---------------------------- SAVE PASSWORD ------------------------------- #
+def save():
+    website_output = website_entry.get()
+    email_output = email_entry.get()
+    password_output = password_entry.get()
+
+
+    with open("data.txt", "a") as data:
+        data.write(f"{website_output} | {email_output} | {password_output}\n")
+        website_entry.delete(0, END)
+        password_entry.delete(0, END)
+        website_entry.focus()
+
+# ---------------------------- UI SETUP ------------------------------- #
+
 
 window = Tk()
 window.title("Password Manager")
@@ -21,23 +41,19 @@ password_label.grid(column=0, row=3)
 #Entry
 website_entry = Entry(width=35)
 website_entry.grid(column=1, row=1, columnspan=2)
+website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(column=1, row=2, columnspan=2)
+email_entry.insert(0, "pieter@gmail.com")
 password_entry = Entry(width=21)
 password_entry.grid(column=1, row=3)
 
 #Button
 generate_pass_button = Button(text="Generate Password")
-generate_pass_button.grid(column=2, row=3)
-add_button = Button(text="Add", width=36)
+generate_pass_button.grid(column=2, row=3, columnspan=2)
+add_button = Button(text="Add", width=35, command=save)
 add_button.grid(column=1, row=4, columnspan=2)
 
-
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
-
-# ---------------------------- SAVE PASSWORD ------------------------------- #
-
-# ---------------------------- UI SETUP ------------------------------- #
 
 
 window.mainloop()
