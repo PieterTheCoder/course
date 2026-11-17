@@ -4,6 +4,7 @@ from tkinter import messagebox
 WHITE = "#FFFFFF"
 
 
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
@@ -54,6 +55,7 @@ generate_pass_button = Button(text="Generate Password")
 generate_pass_button.grid(column=2, row=3, columnspan=2)
 add_button = Button(text="Add", width=35, command=save)
 add_button.grid(column=1, row=4, columnspan=2)
+
 
 
 window.mainloop()
