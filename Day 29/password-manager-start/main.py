@@ -4,6 +4,7 @@ from tkinter import messagebox
 WHITE = "#FFFFFF"
 
 
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
